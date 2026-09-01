@@ -18,11 +18,11 @@ api-connect/
 ├── package.json
 ├── .gitignore
 ├── routes/
-│ └── userRoutes.js
+│   └── userRoutes.js
 ├── controllers/
-│ └── userController.js
+│   └── userController.js
 └── data/
-└── users.js
+    └── users.js
 
 - `server.js`: ponto de entrada da aplicação, responsável por instanciar o Express e registrar os middlewares e rotas.
 - `routes/`: define o mapeamento entre método HTTP + endpoint e a função do controller correspondente.
